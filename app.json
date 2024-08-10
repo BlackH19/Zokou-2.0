@@ -10,18 +10,18 @@
     "PREFIXE":
     {
       "description":"choisissez votre préfixe",
-      "value":"#",
+      "value":"/",
       "required":true
     },
     "LECTURE_AUTO_STATUS":
     {
       "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }, "TELECHARGER_AUTO_STATUS":
     {
       "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
     ,
@@ -50,7 +50,7 @@
     "MODE_PUBLIC":
     {
       "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
+      "value":"non",
       "required":false
     }
 	,
@@ -71,7 +71,7 @@
     "SESSION_ID":
     {
       "description":"veuillez renseigner votre id de session",   
-      "value":"",
+      "value":"Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoia0xoTDQxc1NCbndEV3dkTGN0VTIrYmh3YUl1OVNoT2I2Y2hOam02VTdXbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRkc5NHVzUEVnck8xVzJ0QnB3NVJ2U1FVRThnSURnZW4rMXFLZXNCOFpYYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1RUZ0SHh4Nm1HdXROa3VsQjl4WnZhVzF3MHRFTndScVpYdFlPdmJTWG5RPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJYNjdLWHpjL0Mxa0RpNUlSbVFMV3R4eThsZElvc0xXZTJERUQxNzNkdkRrPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNBYzRMRDZsMkZ3YkkwajhOdkszaTE2Um0yNUFsOC9LZFA4OENRSkJ3MVk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlUrd3FEaWN0UFlLeTBmM25scVdmS3lVNG1rYThFckw4ekg2SlBWQ1RrMG89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0JxYmhmdzZUUXVsUzV5eitlRDdROU12L3p2SjF4QTBiZkRBTXppK0VXST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOGw2NVJBNTlEK0lEQXRXQzdybW50MGgyek8xd1dUZEZEZ3ZBd1pOdTRDcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndnQ3YwRzczNTJkVGkwRU5oNWxqSnlxQXJ5UHkrbzlmd3QzNVB6ckhRV2JjNTVkeHdCMlh3M3lHUGFnNE9MU1pKbHJROCtiQlRUamgyaEV0WVRLSkFnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTg1LCJhZHZTZWNyZXRLZXkiOiI2R0RUb3FUbXZNbW93M2M2MFozTnp4a1BMQ1laeFBpaXhJUlRLQmlHZXdRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ3M2xlWElFRFM3T0dsUlRIWHNCQUdRIiwicGhvbmVJZCI6IjQyZjUwM2VjLTQ5NWQtNGMzMS1iZTAyLTgzYmUzNGRiNWI1ZSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJmalhQLzV0NkxqVFhTUXBUZlplTFVaQWU2WTA9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjR1bUkwNzV5MEZKQ21uVTNRaHdoaWhWWTExYz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0xlMndJTUhFUCtRM2JVR0dCb2dBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InVHSUlsTGR4dHVqaGYvSXhiUm5pbjhuV3VuTGNabksxTFcwYTYrZjVEbDg9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkZtN1hXV2ZLZVpnYnpZN2VxQWQ4TUNqc3hraTRlRmd3K0grZURPQ3hZdVh3d3IvbjYwejdwVy9yd1RpY3VzWVJvaG1yazJxblZRLys2TWl3em5VNkNBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJSZWJSWk9CeEtzd3piMGRKNlUyUHZnWGxyY05WQVJYRHNoL3Q1OVZlSXBGSlQvbnBxR1dSNXA5WHpRRUdYa1dpeGV3dkxNOGJCZ2o2WDNuZE9jWG5EQT09In0sIm1lIjp7ImlkIjoiMjI4OTM1NTU1MDU6NjVAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIyNTQ4NzYyNzc4MjE1MDE6NjVAbGlkIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIyODkzNTU1NTA1OjY1QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmJoaUNKUzNjYmJvNFgveU1XMFo0cC9KMXJweTNHWnl0UzF0R3V2bitRNWYifX1dLCJwbGF0Zm9ybSI6ImlwaG9uZSIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0JJSUFnPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIzMjg3NjgyLCJsYXN0UHJvcEhhc2giOiIyV1VqbVoiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUFaZCJ9",
       "required":true
       
     },
@@ -80,14 +80,14 @@
     
     "description": "Votre nom",
     "required": false,
-    "value": "Djalega++"
+    "value": "Ike"
   },
     "NUMERO_OWNER":
   {
     
     "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
     "required":false,
-    "value": "22891733300"
+    "value": "22893555505"
   },
     
 
